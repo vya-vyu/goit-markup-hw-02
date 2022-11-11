@@ -65,7 +65,7 @@ body{
 
 /* авторизация */
 .auth a{
-    color: var(--title-text-color);
+    color: var(--main-text-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -161,10 +161,16 @@ footer {
 .address{
     color: var(--primary-white-color);
     text-decoration: none;
+    font-style: normal;
 }
 .contacts{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-style: normal;
+}
+.contacts:hover,
+.contacts:focus{
+    color: var(--accent-color);
 }
 
 
@@ -209,5 +215,8 @@ footer {
 }
 .portfolio p{
     color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
 
